@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-  width="1536"
-  height="600"
-  viewBox="0 0 512 200"
+  width="180"
+  height="23"
+  viewBox="0 0 180 23"
+  fill="none"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
   aria-labelledby="aleesha-kost-logo-title aleesha-kost-logo-description"
-  preserveAspectRatio="xMidYMid meet"
 >
   <title id="aleesha-kost-logo-title">
     Aleesha Kost Logo
@@ -16,8 +16,20 @@
     Logo Aleesha Kost dengan ikon rumah dan teks Aleesha Kost.
   </desc>
 
-  <!-- Icon -->
-  <g transform="matrix(1.25 0 0 1.25 -103.5 -109.375)">
+  <!--
+    Icon diposisikan agar batas visualnya mendekati:
+    kiri   : 0.4
+    kanan  : 19
+    atas   : 0.4
+    bawah  : 22.6
+  -->
+  <g
+    transform="
+      translate(1 1)
+      scale(0.144827586)
+      translate(-90 -95)
+    "
+  >
     <!-- House Outline -->
     <path
       d="
@@ -59,19 +71,24 @@
     />
   </g>
 
-  <!-- Brand Name -->
+  <!--
+    Text dibuat tinggi agar bagian atas dan bawah visualnya
+    sejajar dengan icon.
+
+    textLength memastikan logo menggunakan hampir seluruh
+    lebar canvas sampai x=179.
+  -->
   <text
-    x="178"
-    y="101"
-    textLength="330"
+    x="22.25"
+    y="22"
+    textLength="156.75"
     lengthAdjust="spacingAndGlyphs"
-    dominant-baseline="middle"
-    font-family="Geist, 'Geist Sans', Arial, sans-serif"
-    font-size="58"
+    font-family="Inter, Geist, 'Geist Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="29.2"
     font-weight="600"
-    letter-spacing="-1"
-  >
-    <tspan fill="#9B6BAF">Aleesha</tspan>
-    <tspan fill="#C9A3D8"> Kost</tspan>
-  </text>
+    font-kerning="normal"
+    letter-spacing="-0.025em"
+    text-rendering="geometricPrecision"
+    xml:space="preserve"
+  ><tspan fill="#9B6BAF">Aleesha</tspan><tspan fill="#C9A3D8"> Kost</tspan></text>
 </svg>
