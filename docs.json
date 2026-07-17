@@ -9,13 +9,31 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": ["index", "quickstart"]
+          }
+        ]
+      },
+      {
+        "language": "id",
+        "groups": [
+          {
+            "group": "Memulai",
+            "default": true,
+            "pages": ["id/index", "id/quickstart"]
+          }
+        ]
+      }
+    ],
     "pages": [
       {
         "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
+        "pages": ["index", "quickstart"]
       }
     ],
     "global": {
@@ -51,13 +69,7 @@
     }
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "download-pdf",
-      "claude",
-      "chatgpt"
-    ]
+    "options": ["copy", "view", "download-pdf", "claude", "chatgpt"]
   },
   "footer": {
     "socials": {
